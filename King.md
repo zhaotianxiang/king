@@ -1,8 +1,8 @@
 # King datavases
 
-### Table describe
+## Table describe
 
-1. user
+* 1. user
 
 ```sql
 create table user(
@@ -14,7 +14,7 @@ create table user(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
-> mysql 5.0+: varchar(50) 数字、字母还是UTF8汉字（每个汉字3字节）都可以存放50个.
+> 备注： mysql 5.0+, varchar(50) 数字、字母、汉字（每个汉字3字节）都可以存放50个.
 > 
 
 ```
@@ -23,7 +23,7 @@ insert into user(id, password, name, level, money) values('904001993','aini1314'
 ```
 
 
-2. hero
+* 2. hero
 
 ```sql
 create table hero(
@@ -42,7 +42,7 @@ insert into hero(name, profession, gender, price) values('鲁班','射手','男'
 
 ```
 
-3. skin
+* 3. skin
 
 ```sql
 create table skin(
