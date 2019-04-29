@@ -30,7 +30,7 @@ create table hero(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 
 ```
-> Insert query
+> Insert query: 
 > insert into hero(name, profession, gender, price) values('鲁班','射手','男','6300');
 
 
@@ -45,5 +45,5 @@ create table skin(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 
 ```
-> Insert query
+> Insert query: 
 > insert into skin(name, type, price) values('仲夏夜之梦', '传说', '163');
