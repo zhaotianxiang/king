@@ -14,7 +14,7 @@ create table user(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
-> 备注： mysql 5.0+, varchar(50) 数字、字母、汉字（每个汉字3字节）都可以存放50个.
+> Insert query: 
 > insert into user(id, password, name, level, money) values('904001993','aini1314','天昭瑞祥','倔强青铜','9999999');
 
 
