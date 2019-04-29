@@ -1,2 +1,2 @@
-# king
-review sql databases
+# King databases
+> This projects for review sql databases.
