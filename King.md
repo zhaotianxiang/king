@@ -1,4 +1,4 @@
-# King databases
+# King database
 
 ### Table describe
 
