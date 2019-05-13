@@ -2,8 +2,8 @@
 
 const DB = require('./helper');
 let db = new DB('root', 'aini1314@xiaoqing', 'tianzhaoruixiang', 'king'); 
-
-const sql = `insert into hero(name, profession, gender, price) values('王昭君','法师','女','6300')`
+let username = '天昭瑞祥'
+const sql = `select password from user where name='${username}'`
 
 db.execute(sql, callback);
 
@@ -12,7 +12,7 @@ function callback(error, results, fields){
 		console.log(error);
 		db.end();
 	}
-	console.log(results);
+	console.log(results[0].password);
 }
 
 db.end();
