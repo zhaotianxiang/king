@@ -1,4 +1,4 @@
-# King datavases
+# King database
 
 ### Table describe
 
@@ -14,13 +14,8 @@ create table user(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
-> 备注： mysql 5.0+, varchar(50) 数字、字母、汉字（每个汉字3字节）都可以存放50个.
-> 
-
-```
-insert into user(id, password, name, level, money) values('904001993','aini1314','天昭瑞祥','倔强青铜','9999999');
-
-```
+> Insert query: 
+> insert into user(id, password, name, level, money) values('904001993','aini1314','天昭瑞祥','倔强青铜','9999999');
 
 
 #### 2. hero
@@ -35,12 +30,9 @@ create table hero(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 
 ```
-> Insert query
+> Insert query: 
+> insert into hero(name, profession, gender, price) values('鲁班','射手','男','6300');
 
-```
-insert into hero(name, profession, gender, price) values('鲁班','射手','男','6300');
-
-```
 
 #### 3. skin
 
@@ -53,9 +45,5 @@ create table skin(
     primary key(id)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 
 ```
-> Insert query
-
-```
-insert into skin(name, type, price) values('仲夏夜之梦', '传说', '163');
-
-```
+> Insert query: 
+> insert into skin(name, type, price) values('仲夏夜之梦', '传说', '163');
